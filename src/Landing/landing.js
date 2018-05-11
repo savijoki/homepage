@@ -9,7 +9,7 @@ export default class Landing extends React.Component {
       <section id="landing" className="valign-wrapper">
         <div>
           <h1 className="display-3 text-white">Portfolio</h1>
-          <h4 className="text-white text-center animated fadeIn">By Aleksi Savijoki</h4>
+          <h5 className="text-white text-center animated fadeIn">By Aleksi Savijoki</h5>
         </div>
         <div className="arrow-container animated fadeInDownBig">
           <ScrollIntoView selector="#intro">

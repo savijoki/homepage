@@ -75,4 +75,5 @@
 }
 .arrow-container img {
   margin: -4px;
+  cursor: pointer;
 }

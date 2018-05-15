@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-// import Header from './Header/header';
 import Landing from './Landing/landing';
 import About from './About/about';
 import Work from './Work/work';
-import Footer from './Footer/footer';
 import 'font-awesome/css/font-awesome.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
@@ -27,7 +25,6 @@ class App extends Component {
         <Landing/>
         <About/>
         <Work/>
-        <Footer/>
       </div>
     );
   }

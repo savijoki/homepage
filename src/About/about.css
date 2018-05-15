@@ -1,7 +1,27 @@
 #about_me {
+    color: #fff;
     background-color: #9B95E5;
 }
 #about_me h2 {
     color: #fff;
     border-bottom: 1px solid #fff;
+}
+.profile-image {
+    max-width: 100%;
+}
+.profile-image img {
+    border: 3px solid #fff;
+}
+#about_me .contact {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 1170px) {
+    .profile-image {
+        text-align: center;
+    }
+    .about {
+        margin-top: 32px;
+    }
 }

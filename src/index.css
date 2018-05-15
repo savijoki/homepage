@@ -15,7 +15,8 @@ body,
 }
 
 section .container {
-    padding: 60px 0 20px 0;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 
 section h2 {
@@ -23,4 +24,14 @@ section h2 {
     display: inline-block;
     padding-bottom: 10px;
     border-bottom: 1px #5E5D5D solid;
+}
+
+.mt16 {
+  margin-top: 16px;
+}
+.mt32 {
+  margin-top: 32px;
+}
+.mb32 {
+  margin-bottom: 32px;
 }

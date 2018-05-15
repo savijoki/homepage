@@ -10,6 +10,10 @@
   animation: LadingArea 10s ease infinite;
   display: flex;
   flex:1;
+}
+.valign-wrapper {
+  display: flex;
+  flex:1;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -76,4 +80,26 @@
 .arrow-container img {
   margin: -4px;
   cursor: pointer;
+}
+
+#landing .social-links {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.logo {
+    margin: 15px;
+    color: #fff;
+    opacity: 0.9;
+}
+.logo:hover {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.opacity-hover {
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
 }

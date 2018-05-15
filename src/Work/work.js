@@ -1,13 +1,16 @@
 import React from 'react';
 import { Container } from 'reactstrap';
-import './intro.css';
+import './work.css';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
-export default class Intro extends React.Component {
+export default class Work extends React.Component {
   render() {
     return (
-      <section id="intro" ref="intro">
+      <section id="work" ref="work">
+        <Container className="text-center">
+          <h2>Work & Education</h2>
+        </Container>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -24,7 +27,7 @@ export default class Intro extends React.Component {
             className="vertical-timeline-element--work"
             date="2017"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<i className="material-icons">stars</i>}>
+            icon={<i className="material-icons">school</i>}>
             <h3 className="vertical-timeline-element-title">Pitky scholarship</h3>
             <h5 className="vertical-timeline-element-subtitle">Member of the best project group in TUT</h5>
             <p>

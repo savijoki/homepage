@@ -12,7 +12,7 @@ export default class Landing extends React.Component {
           <h5 className="text-white text-center animated fadeIn">By Aleksi Savijoki</h5>
         </div>
         <div className="arrow-container animated fadeInDownBig">
-          <ScrollIntoView selector="#intro">
+          <ScrollIntoView selector="#work">
             <img src={arrowDown} alt="Next section"/>
           </ScrollIntoView>
         </div>

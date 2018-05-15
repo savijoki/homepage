@@ -13,3 +13,14 @@ body,
   padding-bottom: 60px;
   position: relative;
 }
+
+section .container {
+    padding: 60px 0 20px 0;
+}
+
+section h2 {
+    color: #5E5D5D;
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 1px #5E5D5D solid;
+}

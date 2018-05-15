@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Landing from './Landing/landing';
 import About from './About/about';
 import Work from './Work/work';
+import Skills from './Skills/skills';
 import 'font-awesome/css/font-awesome.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';

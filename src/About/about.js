@@ -38,7 +38,7 @@ export default class About extends React.Component {
                 since I'm graduating from TUT, I actually have time to learn these. This website was built with ReactJS.
               </p>
               <p>
-                <b>Experienced with:</b><br/> Python, HTML, CSS3, Sass, Less, JavaScript, jQuery, PHP (some experience)
+                <b>Experienced with:</b><br/> Python, HTML, CSS3, Sass, Less, JavaScript, jQuery, PHP
               </p>
               <a href="mailto:aleksi.savijoki@gmail.com" className="contact btn btn-danger mt16">Contact me</a>
             </Col>

@@ -1,0 +1,15 @@
+#hobbies {
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+#hobbies .hobby {
+    background-color: rgb(33, 150, 243);
+}
+#hobbies .hobby i {
+    font-size: 46px;
+    color:#fff;
+}
+#hobbies .hobby h4 {
+    color: #fff;
+    text-transform: uppercase;
+}

@@ -8,10 +8,12 @@ export default class Landing extends React.Component {
     return (
       <section id="landing">
         <div className="social-links">
-          <a href="https://github.com/savijoki" className="logo opacity-hover">
+          <a href="https://github.com/savijoki" className="logo opacity-hover"
+            rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github fa-2x" />
           </a>
-          <a href="https://www.linkedin.com/in/aleksi-savijoki-825a4bb0" className="logo opacity-hover">
+          <a href="https://www.linkedin.com/in/aleksi-savijoki-825a4bb0" className="logo opacity-hover"
+            rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin fa-2x"/>
           </a>
         </div>

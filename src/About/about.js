@@ -27,9 +27,9 @@ export default class About extends React.Component {
           </div>
           <Row className="mt32 mb32">
             <Col md={{ size: 7, offset: 2, order: 1}} xs={{order: 2}} className="about">
-              <h4>Frontend / Full-Stack web engineer</h4>
+              <h4>Full-Stack web engineer</h4>
               <p>
-                I'm a {this.state.age} years old with a passion for programming. I enjoy creating modern web designs.
+                I'm a {this.state.age}-year-old with a passion for programming. I enjoy creating modern web designs.
                 For the past few years I've developed extensions for Odoo, Magento and Joomla. I'm experienced with Django-framework.
               </p>
               <p>

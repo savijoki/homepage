@@ -18,7 +18,7 @@ export default class Hobbies extends React.Component {
             <h2>Interests</h2>
           </div>
           <Row className="mt32 mb32">
-            <Col md="3">
+            <Col lg="3" md="4" sm="6">
               <Card className="text-center hobby">
                 <CardBody>
                   <i className="material-icons">fitness_center</i>
@@ -26,7 +26,7 @@ export default class Hobbies extends React.Component {
                 </CardBody>
               </Card>
             </Col>
-            <Col md="3">
+            <Col lg="3" md="4" sm="6">
               <Card className="text-center hobby">
                 <CardBody>
                   <i className="material-icons">search</i>
@@ -34,7 +34,7 @@ export default class Hobbies extends React.Component {
                 </CardBody>
               </Card>
             </Col>
-            <Col md="3">
+            <Col lg="3" md="4" sm="6">
               <Card className="text-center hobby">
                 <CardBody>
                   <i className="material-icons">ac_unit</i>
@@ -42,7 +42,7 @@ export default class Hobbies extends React.Component {
                 </CardBody>
               </Card>
             </Col>
-            <Col md="3">
+            <Col lg="3" md="4" sm="6">
               <Card className="text-center hobby">
                 <CardBody>
                   <i className="material-icons">flight</i>
@@ -50,9 +50,7 @@ export default class Hobbies extends React.Component {
                 </CardBody>
               </Card>
             </Col>
-          </Row>
-          <Row className="mt32 mb32">
-            <Col md="3">
+            <Col lg="3" md="4" sm="6">
               <Card className="text-center hobby">
                 <CardBody>
                   <i className="material-icons">restaurant</i>
@@ -60,7 +58,7 @@ export default class Hobbies extends React.Component {
                 </CardBody>
               </Card>
             </Col>
-            <Col md="3">
+            <Col lg="3" md="4" sm="6">
               <Card className="text-center hobby">
                 <CardBody>
                   <i className="material-icons">build</i>
@@ -68,7 +66,7 @@ export default class Hobbies extends React.Component {
                 </CardBody>
               </Card>
             </Col>
-            <Col md="3">
+            <Col lg="3" md="4" sm="6">
               <Card className="text-center hobby">
                 <CardBody>
                   <i className="material-icons">games</i>
@@ -76,7 +74,7 @@ export default class Hobbies extends React.Component {
                 </CardBody>
               </Card>
             </Col>
-            <Col md="3">
+            <Col lg="3" md="4" sm="6">
               <Card className="text-center hobby">
                 <CardBody>
                   <i className="material-icons">waves</i>

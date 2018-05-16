@@ -4,6 +4,7 @@
 }
 #hobbies .hobby {
     background-color: rgb(33, 150, 243);
+    margin-bottom: 32px; 
 }
 #hobbies .hobby i {
     font-size: 46px;

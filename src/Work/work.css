@@ -13,3 +13,8 @@
         text-align: right;
     }
 }
+@media only screen and (max-width: 1170px) {
+    #work .material-icons {
+        margin: 6px;
+    }
+}
